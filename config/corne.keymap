@@ -55,22 +55,25 @@
 &kp TAB       &lp EXCLAMATION A  &lp AT_SIGN W      &lp POUND E      &lp DOLLAR R         &kp T        &kp Y    &lp LEFT_PARENTHESIS U  &lp UNDERSCORE I  &lp MINUS O         &lp EQUAL P         &kp BSPC
 &kp DELETE    &hml LEFT_WIN A    &hml LEFT_SHIFT S  &hmr LEFT_ALT D  &hml LEFT_CONTROL F  &kp G        &kp H    &hmr RIGHT_CONTROL J    &hmr RIGHT_ALT K  &hmr RIGHT_SHIFT L  &kp SINGLE_QUOTE    &kp SEMICOLON
 &kp CAPSLOCK  &lp LC(Z) Z        &lp LC(X) X        &lp LC(C) C      &lp LC(V) V          &kp B        &kp N    &kp M                   &kp COMMA         &kp DOT             &lp QUESTION SLASH  &kp ESC
-                                                    &kp LGUI         &lt 1 BACKSPACE      &lt 2 TAB    &kp RET  &kp SPACE               &kp RALT
+                                                    &none            &lt 3 BACKSPACE      &lt 2 TAB    &kp RET  &lt 1 SPACE             &none
             >;
         };
 
-        lower_layer {
-            // -----------------------------------------------------------------------------------------
-            // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-            // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-            // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
-
+        arrows_layer {
             bindings = <
-&kp TAB     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6    &kp N7    &kp N8    &kp N9     &kp N0  &kp BSPC
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans  &trans
-&kp LSHFT   &trans        &trans        &trans        &trans        &trans          &trans    &trans    &trans    &trans     &trans  &trans
-                                        &kp LGUI      &trans        &kp SPACE       &kp RET   &trans    &kp RALT
+&bt BT_NXT  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &kp C_VOLUME_DOWN  &kp UP_ARROW      &kp C_VOLUME_UP  &kp C_MUTE  &trans
+&bt BT_PRV  &trans        &trans        &trans        &trans        &trans          &trans  &kp LEFT_ARROW     &kp DOWN_ARROW    &kp RIGHT_ARROW  &trans      &trans
+&bt BT_CLR  &trans        &trans        &trans        &trans        &trans          &trans  &kp C_PREVIOUS     &kp C_PLAY_PAUSE  &kp C_NEXT       &trans      &trans
+                                        &trans        &trans        &trans          &trans  &trans             &trans
+            >;
+        };
+
+        numpad_layer {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS  &kp ASTERISK
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp KP_N4        &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SLASH  &trans
+                        &trans  &trans  &trans    &trans  &kp KP_NUMBER_0  &kp PERIOD
             >;
         };
 
