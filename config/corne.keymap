@@ -39,11 +39,6 @@
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
-        caps_word: caps_word {
-            compatible = "zmk,behavior-caps-word";
-            label = "CAPS_WORD";
-            #binding-cells = <0>;
-        };
     };
 
     keymap {
