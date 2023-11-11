@@ -43,7 +43,6 @@
             compatible = "zmk,behavior-caps-word";
             label = "CAPS_WORD";
             #binding-cells = <0>;
-            continue-list = <BACKSPACE UNDERSCORE MINUS KP_MINUS>;
         };
     };
 
