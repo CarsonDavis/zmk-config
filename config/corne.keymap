@@ -45,17 +45,11 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            // -----------------------------------------------------------------------------------------
-            // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
-            // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
-            // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
-            //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
-
             label = "QWERTY";
             bindings = <
 &to 4       &lp EXCLAMATION Q  &lp AT_SIGN W      &lp POUND E      &lp DOLLAR R         &kp T              &kp Y    &lp LEFT_PARENTHESIS U  &lp UNDERSCORE I  &lp MINUS O         &lp EQUAL P         &kp BSPC
-&kp DELETE  &hml LEFT_WIN A    &hml LEFT_SHIFT S  &hmr LEFT_ALT D  &hml LEFT_CONTROL F  &kp G              &kp H    &hmr RIGHT_CONTROL J    &hmr RIGHT_ALT K  &hmr RIGHT_SHIFT L  &kp SINGLE_QUOTE    &kp SEMICOLON
-&caps_word  &lp LC(Z) Z        &lp LC(X) X        &lp LC(C) C      &lp LC(V) V          &kp B              &kp N    &kp M                   &kp COMMA         &kp DOT             &lp QUESTION SLASH  &kp ESC
+&kp DELETE  &hml LEFT_WIN A    &hml LEFT_SHIFT S  &hml LEFT_ALT D  &hml LEFT_CONTROL F  &kp G              &kp H    &hmr RIGHT_CONTROL J    &hmr RIGHT_ALT K  &hmr RIGHT_SHIFT L  &kp SINGLE_QUOTE    &kp SEMICOLON
+&caps_word  &lp LC(Z) Z        &lp LC(X) X        &lp LC(C) C      &lp LC(V) V          &kp B              &kp N    &kp M                   &kp COMMA         &kp DOT             &lp QUESTION SLASH  &to 5
                                                   &lt 1 TAB        &lt 3 BACKSPACE      &lt 2 BACKSPACE    &kp RET  &lt 1 SPACE             &kp ESC
             >;
         };
@@ -81,12 +75,6 @@
         };
 
         symbols {
-            // -----------------------------------------------------------------------------------------
-            // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-            // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-            // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
-
             label = "Symbols";
             bindings = <
 &none  &none      &none          &none        &none    &none          &none   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK  &kp PLUS       &kp BSPC
@@ -103,6 +91,16 @@
 &trans  &kp A  &kp R  &kp S   &kp T   &kp G     &kp M   &kp N      &kp E      &kp I       &kp O               &kp SEMICOLON
 &trans  &kp Z  &kp X  &kp C   &kp D   &kp V     &kp K   &kp H      &kp COMMA  &kp PERIOD  &lp QUESTION SLASH  &trans
                       &trans  &trans  &trans    &trans  &kp SPACE  &trans
+            >;
+        };
+
+        colemak_full {
+            label = "C-dh f";
+            bindings = <
+&to 0       &lp EXCLAMATION Q  &lp AT_SIGN W      &lp POUND F      &lp DOLLAR P         &kp B              &kp J    &lp LEFT_PARENTHESIS L  &lp UNDERSCORE U      &lp MINUS Y         &lp EQUAL SINGLE_QUOTE    &kp BSPC
+&kp DELETE  &hml LEFT_WIN A    &hml LEFT_SHIFT R  &hml LEFT_ALT S  &hml LEFT_CONTROL T  &kp G              &kp M    &hmr RIGHT_CONTROL N    &hmr RIGHT_ALT E      &hmr RIGHT_SHIFT I  &kp O                     &kp SEMICOLON
+&caps_word  &lp LC(Z) Z        &lp LC(X)  X       &lp LC(C) C      &lp LC(V) D          &kp V              &kp K    &kp H                   &kp COMMA             &kp PERIOD          &lp QUESTION SLASH        &trans
+                                                  &lt 1 TAB        &lt 3 BACKSPACE      &lt 2 BACKSPACE    &kp RET  &lt 1 SPACE             &kp ESC
             >;
         };
     };
