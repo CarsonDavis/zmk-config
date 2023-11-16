@@ -17,9 +17,10 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <250>;
-            hold-trigger-key-positions = <39 40 41 30 18 6 7 19 31 32 20 8 9 21 33 34 22 10 11 23 35 2 14 13 37 38>;
+            hold-trigger-key-positions = <39 40 41 30 18 6 7 19 31 32 20 8 9 21 33 34 22 10 11 23 35 2 14 13 37 38 15 16>;
             flavor = "tap-preferred";
         };
+
         hmr: hmr {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS_RIGHT";
@@ -27,9 +28,10 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <250>;
-            hold-trigger-key-positions = <12 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 20>;
+            hold-trigger-key-positions = <12 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 20 19 21>;
             flavor = "tap-preferred";
         };
+
         lp: lp {
             compatible = "zmk,behavior-hold-tap";
             label = "LONG_PRESS";
@@ -97,9 +99,9 @@
         colemak_full {
             label = "C-dh f";
             bindings = <
-&to 0       &lp EXCLAMATION Q  &lp AT_SIGN W      &lp POUND F      &lp DOLLAR P         &kp B              &kp J    &lp LEFT_PARENTHESIS L  &lp UNDERSCORE U      &lp MINUS Y         &lp EQUAL SINGLE_QUOTE    &kp BSPC
-&kp DELETE  &hml LEFT_WIN A    &hml LEFT_SHIFT R  &hml LEFT_ALT S  &hml LEFT_CONTROL T  &kp G              &kp M    &hmr RIGHT_CONTROL N    &hmr RIGHT_ALT E      &hmr RIGHT_SHIFT I  &kp O                     &kp SEMICOLON
-&caps_word  &lp LC(Z) Z        &lp LC(X)  X       &lp LC(C) C      &lp LC(V) D          &kp V              &kp K    &kp H                   &kp COMMA             &kp PERIOD          &lp QUESTION SLASH        &trans
+&to 0       &lp EXCLAMATION Q  &lp AT_SIGN W      &lp POUND F      &lp DOLLAR P         &kp B              &kp J    &lp LEFT_PARENTHESIS L  &lp UNDERSCORE U  &lp MINUS Y         &lp EQUAL SINGLE_QUOTE  &kp BSPC
+&kp DELETE  &hml LEFT_WIN A    &hml LEFT_SHIFT R  &hml LEFT_ALT S  &hml LEFT_CONTROL T  &kp G              &kp M    &hmr RIGHT_CONTROL N    &hmr RIGHT_ALT E  &hmr RIGHT_SHIFT I  &kp O                   &kp SEMICOLON
+&caps_word  &lp LC(Z) Z        &lp LC(X) X        &lp LC(C) C      &lp LC(V) D          &kp V              &kp K    &kp H                   &kp COMMA         &kp PERIOD          &lp QUESTION SLASH      &trans
                                                   &lt 1 TAB        &lt 3 BACKSPACE      &lt 2 BACKSPACE    &kp RET  &lt 1 SPACE             &kp ESC
             >;
         };
