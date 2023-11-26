@@ -49,10 +49,10 @@
         default_layer {
             label = "QWERTY";
             bindings = <
-&to 4       &lp EXCLAMATION Q  &lp AT_SIGN W      &lp POUND E      &lp DOLLAR R         &kp T              &kp Y    &lp LEFT_PARENTHESIS U  &lp UNDERSCORE I  &lp MINUS O         &lp EQUAL P         &kp BSPC
-&kp DELETE  &hml LEFT_WIN A    &hml LEFT_SHIFT S  &hml LEFT_ALT D  &hml LEFT_CONTROL F  &kp G              &kp H    &hmr RIGHT_CONTROL J    &hmr RIGHT_ALT K  &hmr RIGHT_SHIFT L  &kp SINGLE_QUOTE    &kp SEMICOLON
-&caps_word  &lp LC(Z) Z        &lp LC(X) X        &lp LC(C) C      &lp LC(V) V          &kp B              &kp N    &kp M                   &kp COMMA         &kp DOT             &lp SLASH QUESTION  &to 5
-                                                  &lt 1 TAB        &lt 2 BACKSPACE      &lt 3 BACKSPACE    &kp RET  &lt 1 SPACE             &kp ESC
+&to 4       &lp EXCLAMATION Q  &lp AT_SIGN W      &lp POUND E      &lp DOLLAR R         &lp PERCENT T      &lp ASTERISK Y  &lp LEFT_PARENTHESIS U  &lp UNDERSCORE I  &lp MINUS O         &lp EQUAL P         &kp BSPC
+&kp DELETE  &hml LEFT_WIN A    &hml LEFT_SHIFT S  &hml LEFT_ALT D  &hml LEFT_CONTROL F  &kp G              &kp H           &hmr RIGHT_CONTROL J    &hmr RIGHT_ALT K  &hmr RIGHT_SHIFT L  &kp SINGLE_QUOTE    &kp SEMICOLON
+&caps_word  &lp LC(Z) Z        &lp LC(X) X        &lp LC(C) C      &lp LC(V) V          &kp B              &kp N           &kp M                   &kp COMMA         &kp DOT             &lp SLASH QUESTION  &to 5
+                                                  &lt 1 TAB        &lt 2 BACKSPACE      &lt 3 BACKSPACE    &kp RET         &lt 1 SPACE             &kp ESC
             >;
         };
 
@@ -69,10 +69,10 @@
         numpad_layer {
             label = "NumPad";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans   &trans       &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9      &kp MINUS  &kp ASTERISK
-&trans  &trans  &trans  &trans  &trans  &kp TAB  &kp LS(TAB)  &kp KP_N4        &kp KP_NUMBER_5  &kp KP_NUMBER_6      &kp PLUS   &trans
-&trans  &trans  &trans  &trans  &trans  &kp RET  &trans       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &lp DOT KP_NUMBER_3  &kp SLASH  &trans
-                        &trans  &trans  &trans   &trans       &kp KP_NUMBER_0  &kp PERIOD
+&trans  &trans  &trans  &trans  &trans  &trans     &trans       &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9      &kp MINUS  &kp ASTERISK
+&trans  &trans  &trans  &trans  &trans  &kp TAB    &kp LS(TAB)  &kp KP_N4        &kp KP_NUMBER_5  &kp KP_NUMBER_6      &kp PLUS   &trans
+&trans  &trans  &trans  &trans  &trans  &kp RET    &trans       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &lp DOT KP_NUMBER_3  &kp SLASH  &trans
+                        &trans  &trans  &trans     &trans       &kp KP_NUMBER_0  &kp PERIOD
             >;
         };
 
