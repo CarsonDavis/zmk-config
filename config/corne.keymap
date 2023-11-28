@@ -80,7 +80,7 @@
             label = "Symbols";
             bindings = <
 &none  &none      &none          &none        &none    &none          &none   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK  &kp PLUS       &kp BSPC
-&none  &kp GRAVE  &kp TILDE      &kp PERCENT  &kp TAB  &kp LS(TAB)    &none   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL     &kp COLON      &none
+&none  &kp GRAVE  &kp TILDE      &kp PERCENT  &kp TAB  &kp LS(TAB)    &none   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL     &kp GRAVE      &none
 &none  &none      &kp BACKSLASH  &kp PIPE     &kp RET  &none          &none   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp CARET     &kp SEMICOLON  &none
                                  &trans       &trans   &trans         &trans  &kp SPACE             &trans
             >;
