@@ -69,8 +69,8 @@
         numpad_layer {
             label = "NumPad";
             bindings = <
-&trans  &trans  &trans  &trans  &trans   &trans       &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9      &kp MINUS  &kp ASTERISK
-&trans  &trans  &trans  &trans  &kp TAB  &kp LS(TAB)  &none   &kp KP_N4        &kp KP_NUMBER_5  &kp KP_NUMBER_6      &kp PLUS   &none
+&trans  &trans  &trans  &trans  &trans   &trans       &trans  &lp LC(LS(N7))   &lp LC(LS(N8))   &lp LC(LS(N9))       &kp MINUS  &kp ASTERISK
+&trans  &trans  &trans  &trans  &kp TAB  &kp LS(TAB)  &none   &lp LC(LS(N8))   &kp KP_NUMBER_5  &kp KP_NUMBER_6      &kp PLUS   &none
 &trans  &trans  &trans  &trans  &kp RET  &kp ESC      &none   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &lp DOT KP_NUMBER_3  &kp SLASH  &none
                         &trans  &trans   &trans       &none   &kp KP_NUMBER_0  &kp PERIOD
             >;
