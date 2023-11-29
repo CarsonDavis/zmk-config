@@ -69,10 +69,10 @@
         numpad_layer {
             label = "NumPad";
             bindings = <
-&trans  &trans  &trans  &trans  &trans   &trans       &trans  &lp LC(LS(N7)) KP_NUMBER_7   &lp LC(LS(N8)) KP_NUMBER_8   &lp LC(LS(N9)) KP_NUMBER_9       &kp MINUS  &kp ASTERISK
-&trans  &trans  &trans  &trans  &kp TAB  &kp LS(TAB)  &none   &lp LC(LS(N8)) KP_NUMBER_4   &kp KP_NUMBER_5              &kp KP_NUMBER_6                  &kp PLUS   &none
-&trans  &trans  &trans  &trans  &kp RET  &kp ESC      &none   &kp KP_NUMBER_1              &kp KP_NUMBER_2              &lp DOT KP_NUMBER_3              &kp SLASH  &none
-                        &trans  &trans   &trans       &none   &kp KP_NUMBER_0              &kp PERIOD
+&trans  &trans        &trans          &trans        &trans            &trans       &trans  &lp LC(LS(N7)) KP_NUMBER_7   &lp LC(LS(N8)) KP_NUMBER_8   &lp LC(LS(N9)) KP_NUMBER_9       &kp MINUS  &kp ASTERISK
+&trans  &kp LEFT_WIN  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp TAB      &none   &lp LC(LS(N8)) KP_NUMBER_4   &kp KP_NUMBER_5              &kp KP_NUMBER_6                  &kp PLUS   &none
+&trans  &trans        &trans          &trans        &kp RET           &kp ESC      &none   &lp LA(LC(N1)) KP_NUMBER_1   &lp LA(LC(N2)) KP_NUMBER_2   &lp LA(LC(N3)) KP_NUMBER_3       &kp SLASH  &none
+                                      &trans        &trans            &trans       &none   &kp KP_NUMBER_0              &kp PERIOD
             >;
         };
 
