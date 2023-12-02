@@ -49,60 +49,55 @@
         default_layer {
             label = "QWERTY";
             bindings = <
-&to 4       &lp EXCLAMATION Q  &lp AT_SIGN W      &lp POUND E      &lp DOLLAR R         &lp PERCENT T      &lp ASTERISK Y  &lp LEFT_PARENTHESIS U  &lp UNDERSCORE I  &lp MINUS O         &lp EQUAL P                   &kp BSPC
-&kp DELETE  &hml LEFT_WIN A    &hml LEFT_SHIFT S  &hml LEFT_ALT D  &hml LEFT_CONTROL F  &kp G              &kp H           &hmr RIGHT_CONTROL J    &hmr RIGHT_ALT K  &hmr RIGHT_SHIFT L  &lp SEMICOLON SINGLE_QUOTE    &kp SEMICOLON
-&caps_word  &lp LC(Z) Z        &lp LC(X) X        &lp LC(C) C      &lp LC(V) V          &kp B              &kp N           &kp M                   &kp COMMA         &kp DOT             &lp SLASH QUESTION            &to 5
-                                                  &lt 1 TILDE      &lt 2 BACKSPACE      &lt 3 TAB          &kp RET         &lt 1 SPACE             &kp ESC
+&to 1       &lp EXCLAMATION Q  &lp AT_SIGN W      &lp POUND E      &lp DOLLAR R         &lp PERCENT T              &lp ASTERISK Y  &lp LEFT_PARENTHESIS U   &lp UNDERSCORE I       &lp MINUS O         &lp EQUAL P                 &kp BSPC
+&kp DELETE  &hml LEFT_WIN A    &hml LEFT_SHIFT S  &hml LEFT_ALT D  &hml LEFT_CONTROL F  &kp G                      &kp H           &hmr RIGHT_CONTROL J     &hmr RIGHT_ALT K       &hmr RIGHT_SHIFT L  &lp SEMICOLON SINGLE_QUOTE  &kp SEMICOLON
+&caps_word  &lp LC(Z) Z        &lp LC(X) X        &lp LC(C) C      &lp LC(V) V          &kp B                      &kp N           &kp M                    &kp COMMA              &kp DOT             &lp SLASH QUESTION          &to 5
+                                                  &lt 2 TILDE      &lt 3 BACKSPACE      &lt 4 TAB                  &kp RET         &lt 2 SPACE              &kp ESC
             >;
         };
-
-        arrows_layer {
-            label = "Arrows";
-            bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3      &bt BT_SEL 4    &trans  &kp C_VOLUME_DOWN  &kp UP_ARROW      &kp C_VOLUME_UP  &kp C_MUTE  &trans
-&none       &kp LEFT_WIN  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL  &trans          &trans  &kp LEFT_ARROW     &kp DOWN_ARROW    &kp RIGHT_ARROW  &trans      &trans
-&none       &trans        &trans          &trans        &trans            &trans          &trans  &kp C_PREVIOUS     &kp C_PLAY_PAUSE  &kp C_NEXT       &trans      &trans
-                                          &trans        &trans            &trans          &trans  &trans             &trans
-            >;
-        };
-
-        numpad_layer {
-            label = "NumPad";
-            bindings = <
-&trans  &trans        &trans          &trans        &trans            &trans       &trans  &lp LC(LS(N7)) KP_NUMBER_7   &lp LC(LS(N8)) KP_NUMBER_8   &lp LC(LS(N9)) KP_NUMBER_9       &kp MINUS  &kp ASTERISK
-&trans  &kp LEFT_WIN  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp TAB      &none   &lp LC(LS(N8)) KP_NUMBER_4   &kp KP_NUMBER_5              &kp KP_NUMBER_6                  &kp PLUS   &none
-&trans  &trans        &trans          &trans        &kp RET           &kp ESC      &none   &lp LA(LC(N1)) KP_NUMBER_1   &lp LA(LC(N2)) KP_NUMBER_2   &lp LA(LC(N3)) KP_NUMBER_3       &kp SLASH  &none
-                                      &trans        &trans            &trans       &none   &kp KP_NUMBER_0              &kp PERIOD
-            >;
-        };
-
-        symbols {
-            label = "Symbols";
-            bindings = <
-&none  &none      &none          &none        &none             &none          &none   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK  &kp PLUS       &kp BSPC
-&none  &kp GRAVE  &kp TILDE      &kp SLASH    &kp LEFT_CONTROL  &kp LEFT_WIN   &none   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL     &kp GRAVE      &none
-&none  &none      &kp BACKSLASH  &kp PIPE     &kp RET           &none          &none   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp CARET     &kp SEMICOLON  &none
-                                 &trans       &trans            &trans         &trans  &kp SPACE             &trans
-            >;
-        };
-
         colemak {
             label = "Colemak";
             bindings = <
-&to 0   &kp Q  &kp W  &kp F   &kp P   &kp B     &kp J   &kp L      &kp U      &kp Y       &kp SINGLE_QUOTE    &trans
-&trans  &kp A  &kp R  &kp S   &kp T   &kp G     &kp M   &kp N      &kp E      &kp I       &kp O               &kp SEMICOLON
-&trans  &kp Z  &kp X  &kp C   &kp D   &kp V     &kp K   &kp H      &kp COMMA  &kp PERIOD  &lp SLASH QUESTION  &to 5
-                      &trans  &trans  &trans    &trans  &kp SPACE  &trans
+&to 0       &kp Q              &kp W              &kp F            &kp P                &kp B                      &kp J          &kp L                    &kp U                   &kp Y               &kp SINGLE_QUOTE           &trans
+&trans      &kp A              &kp R              &kp S            &kp T                &kp G                      &kp M          &kp N                    &kp E                   &kp I               &kp O                      &kp SEMICOLON
+&trans      &kp Z              &kp X              &kp C            &kp D                &kp V                      &kp K          &kp H                    &kp COMMA               &kp PERIOD          &lp SLASH QUESTION         &to 5
+                                                  &lt 2 TILDE      &lt 3 BACKSPACE      &lt 4 TAB                  &kp RET        &lt 2 SPACE              &kp ESC
             >;
         };
-
+        arrows_layer {
+            label = "Arrows";
+            bindings = <
+&bt BT_CLR  &bt BT_SEL 0        &bt BT_SEL 1      &bt BT_SEL 2     &bt BT_SEL 3         &bt BT_SEL 4               &trans          &kp C_VOLUME_DOWN        &kp UP_ARROW           &kp C_VOLUME_UP    &kp C_MUTE                  &trans
+&none       &kp LEFT_WIN        &kp LEFT_SHIFT    &kp LEFT_ALT     &kp LEFT_CONTROL     &trans                     &trans          &kp LEFT_ARROW           &kp DOWN_ARROW         &kp RIGHT_ARROW    &trans                      &trans
+&none       &trans              &trans            &trans           &trans               &trans                     &trans          &kp C_PREVIOUS           &kp C_PLAY_PAUSE       &kp C_NEXT         &trans                      &trans
+                                                  &trans           &trans               &trans                     &trans          &trans                   &trans
+            >;
+        };
+        numpad_layer {
+            label = "NumPad";
+            bindings = <
+&trans      &trans              &trans            &trans          &trans                &trans                    &trans          &lp LC(LS(N7)) N7         &lp LC(LS(N8)) N8      &lp LC(LS(N9)) N9  &kp MINUS                  &kp ASTERISK
+&trans      &kp LEFT_WIN        &kp LEFT_SHIFT    &kp LEFT_ALT    &kp LEFT_CONTROL      &kp TAB                   &none           &lp LC(LS(N4)) N4         &kp N5                 &kp N6             &kp PLUS                   &none
+&trans      &trans              &trans            &trans          &kp RET               &kp ESC                   &none           &lp LA(LC(N1)) N1         &lp LA(LC(N2)) N2      &lp LA(LC(N3)) N3  &kp SLASH                  &none
+                                                  &trans          &trans                &trans                    &none           &kp KP_NUMBER_0           &kp PERIOD
+            >;
+        };
+        symbols {
+            label = "Symbols";
+            bindings = <
+&none      &none                &none             &none           &none                 &none                     &none           &kp LEFT_PARENTHESIS      &kp RIGHT_PARENTHESIS  &kp ASTERISK        &kp PLUS                  &kp BSPC
+&none      &kp GRAVE            &kp TILDE         &kp SLASH       &kp LEFT_CONTROL      &kp LEFT_WIN              &none           &kp LEFT_BRACKET          &kp RIGHT_BRACKET      &kp EQUAL           &kp GRAVE                 &none
+&none      &none                &kp BACKSLASH     &kp PIPE        &kp RET               &none                     &none           &kp LEFT_BRACE            &kp RIGHT_BRACE        &kp CARET           &kp SEMICOLON             &none
+                                                  &trans          &trans                &trans                    &trans          &kp SPACE                 &trans
+            >;
+        };
         colemak_full {
             label = "C-dh f";
             bindings = <
-&to 0       &lp EXCLAMATION Q  &lp AT_SIGN W      &lp POUND F      &lp DOLLAR P         &kp B              &kp J    &lp LEFT_PARENTHESIS L  &lp UNDERSCORE U  &lp MINUS Y         &lp EQUAL SINGLE_QUOTE  &kp BSPC
-&kp DELETE  &hml LEFT_WIN A    &hml LEFT_SHIFT R  &hml LEFT_ALT S  &hml LEFT_CONTROL T  &kp G              &kp M    &hmr RIGHT_CONTROL N    &hmr RIGHT_ALT E  &hmr RIGHT_SHIFT I  &kp O                   &kp SEMICOLON
-&caps_word  &lp LC(Z) Z        &lp LC(X) X        &lp LC(C) C      &lp LC(V) D          &kp V              &kp K    &kp H                   &kp COMMA         &kp PERIOD          &lp SLASH QUESTION      &to 0
-                                                  &lt 1 TAB        &lt 2 BACKSPACE      &lt 3 BACKSPACE    &kp RET  &lt 1 SPACE             &kp ESC
+&to 0        &lp EXCLAMATION Q  &lp AT_SIGN W      &lp POUND F      &lp DOLLAR P         &kp B                    &kp J           &lp LEFT_PARENTHESIS L   &lp UNDERSCORE U       &lp MINUS Y         &lp EQUAL SINGLE_QUOTE  &kp BSPC
+&kp DELETE   &hml LEFT_WIN A    &hml LEFT_SHIFT R  &hml LEFT_ALT S  &hml LEFT_CONTROL T  &kp G                    &kp M           &hmr RIGHT_CONTROL N     &hmr RIGHT_ALT E       &hmr RIGHT_SHIFT I  &kp O                   &kp SEMICOLON
+&caps_word   &lp LC(Z) Z        &lp LC(X) X        &lp LC(C) C      &lp LC(V) D          &kp V                    &kp K           &kp H                    &kp COMMA              &kp PERIOD          &lp SLASH QUESTION      &to 0
+                                                   &lt 1 TAB        &lt 2 BACKSPACE      &lt 3 BACKSPACE          &kp RET         &lt 1 SPACE              &kp ESC
             >;
         };
     };
