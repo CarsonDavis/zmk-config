@@ -67,10 +67,10 @@
         colemak_full {
             label = "C-dh f";
             bindings = <
-&to 0        &lp EXCLAMATION Q  &lp AT_SIGN W      &lp POUND F      &lp DOLLAR P         &kp B                    &kp J           &lp LEFT_PARENTHESIS L   &lp UNDERSCORE U       &lp MINUS Y         &lp EQUAL SINGLE_QUOTE      &kp BSPC
+&to 0        &lp EXCLAMATION Q  &lp AT_SIGN W      &lp POUND F      &lp DOLLAR P         &lp PERCENT B            &lp ASTERISK J  &lp LEFT_PARENTHESIS L   &lp UNDERSCORE U       &lp MINUS Y         &lp EQUAL SINGLE_QUOTE      &kp BSPC
 &kp DELETE   &hml LEFT_WIN A    &hml LEFT_SHIFT R  &hml LEFT_ALT S  &hml LEFT_CONTROL T  &kp G                    &kp M           &hmr RIGHT_CONTROL N     &hmr RIGHT_ALT E       &hmr RIGHT_SHIFT I  &kp O                       &kp SEMICOLON
 &caps_word   &lp LC(Z) Z        &lp LC(X) X        &lp LC(C) C      &lp LC(V) D          &kp V                    &kp K           &kp H                    &kp COMMA              &kp PERIOD          &lp SLASH QUESTION          &to 2
-                                                   &lt 3 TAB        &lt 4 BACKSPACE      &lt 5 BACKSPACE          &kp RET         &lt 3 SPACE              &kp ESC
+                                                   &lt 3 TILDE      &lt 4 BACKSPACE      &lt 5 TAB                &kp RET         &lt 3 SPACE              &kp ESC
             >;
         };
         arrows_layer {
