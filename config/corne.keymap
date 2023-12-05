@@ -61,7 +61,7 @@
 &to 0       &kp Q              &kp W              &kp F            &kp P                &kp B                      &kp J          &kp L                    &kp U                   &kp Y               &kp SINGLE_QUOTE           &to 2
 &trans      &kp A              &kp R              &kp S            &kp T                &kp G                      &kp M          &kp N                    &kp E                   &kp I               &kp O                      &lp SEMICOLON COLON
 &trans      &kp Z              &kp X              &kp C            &kp D                &kp V                      &kp K          &kp H                    &kp COMMA               &kp PERIOD          &lp SLASH QUESTION         &kp SLASH
-                                                  &lt 3 TILDE      &lt 4 BACKSPACE      &lt 5 TAB                  &lt 5 RET      &kp SPACE                &kp ESC
+                                                  &kp TILDE        &kp BACKSPACE        &kp BACKSPACE              &kp RET        &kp SPACE                &kp ESC
             >;
         };
         colemak_full {
