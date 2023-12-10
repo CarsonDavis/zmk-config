@@ -70,7 +70,7 @@
 &to 0                   &lp EXCLAMATION Q  &lp AT_SIGN W      &lp POUND F           &lp DOLLAR P         &lp PERCENT B              &lp ASTERISK J  &lp LEFT_PARENTHESIS L   &lp UNDERSCORE U       &lp MINUS Y         &lp EQUAL SINGLE_QUOTE      &to 2
 &lp LC(GRAVE) LG(GRAVE) &hml LEFT_WIN A    &hml LEFT_SHIFT R  &hml LEFT_ALT S       &hml LEFT_CONTROL T  &kp G                      &kp M           &hmr RIGHT_CONTROL N     &hmr RIGHT_ALT E       &hmr RIGHT_SHIFT I  &kp O                       &lp SEMICOLON COLON
 &caps_word              &lp LC(Z) Z        &lp LC(X) X        &lp LC(C) C           &lp LC(V) D          &kp V                      &kp K           &kp H                    &kp COMMA              &kp PERIOD          &lp SLASH QUESTION          &kp SLASH
-                                                              &lp LEFT_SHIFT TILDE  &lt 4 BACKSPACE      &lt 5 TAB                  &lt 5 RET       &lt 3 SPACE              &kp ESC
+                                                              &lp LEFT_SHIFT TILDE  &lt 5 BACKSPACE      &lt 4 TAB                  &lt 5 RET       &lt 3 SPACE              &kp ESC
             >;
         };
         arrows_layer {
@@ -94,9 +94,9 @@
         symbols {
             label = "Symbols";
             bindings = <
-&none                   &kp GRAVE           &kp TILDE         &kp SLASH            &kp BACKSLASH         &kp PIPE                  &kp CARET       &kp LEFT_BRACKET          &kp RIGHT_BRACKET      &kp UNDERSCORE      &kp PLUS                  &kp PIPE
-&none                   &kp EXCLAMATION     &kp AT_SIGN       &kp POUND            &kp DOLLAR            &kp PERCENT               &kp ASTERISK    &kp LEFT_PARENTHESIS      &kp RIGHT_PARENTHESIS  &kp MINUS           &kp EQUAL                 &kp BACKSLASH 
-&none                   &none               &none             &none                &none                 &none                     &none           &kp LEFT_BRACE            &kp RIGHT_BRACE        &kp LESS_THAN       &kp GREATER_THAN          &none
+&none                   &kp GRAVE           &kp TILDE         &kp SLASH            &kp BACKSLASH         &kp PIPE                  &kp CARET       &kp LEFT_BRACE            &kp RIGHT_BRACE        &kp MINUS           &kp PLUS                  &kp PIPE
+&none                   &kp EXCLAMATION     &kp AT_SIGN       &kp POUND            &kp DOLLAR            &kp PERCENT               &kp ASTERISK    &kp LEFT_PARENTHESIS      &kp RIGHT_PARENTHESIS  &kp UNDERSCORE      &kp EQUAL                 &kp BACKSLASH 
+&none                   &none               &none             &none                &none                 &none                     &none           &kp LEFT_BRACKET          &kp RIGHT_BRACKET      &kp LESS_THAN       &kp GREATER_THAN          &none
                                                               &trans               &trans                &trans                    &trans          &kp SPACE                 &trans
             >;
         };
