@@ -60,7 +60,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "mo_ss";
             #binding-cells = <2>;
-            bindings = <&mo>, <&sk>;
+            bindings = <&mo>, <&skq>;
 
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
