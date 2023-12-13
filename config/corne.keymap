@@ -65,6 +65,13 @@
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
+
+        col_semi: colon_semicolon {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp COLON>, <&kp SEMI>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     keymap {
