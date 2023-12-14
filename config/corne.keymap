@@ -105,7 +105,7 @@
         colemak_full {
             label = "C-dh f";
             bindings = <
-&to 0                   &lp EXCLAMATION Q  &lp AT_SIGN W      &lp POUND F           &lp DOLLAR P         &lp PERCENT B              &lp ASTERISK J  &lp LEFT_PARENTHESIS L   &lp UNDERSCORE U       &lp MINUS Y         &lp EQUAL SINGLE_QUOTE      &to 2
+&to 0                   &kp Q              &kp W              &kp F                 &kp P                &kp B                      &kp J           &kp L                    &lp UNDERSCORE U       &lp MINUS Y         &lp EQUAL SINGLE_QUOTE      &to 2
 &caps_word              &hml LEFT_WIN A    &hml LEFT_SHIFT R  &hml LEFT_ALT S       &hml LEFT_CONTROL T  &kp G                      &kp M           &hmr RIGHT_CONTROL N     &hmr RIGHT_ALT E       &hmr RIGHT_SHIFT I  &kp O                       &col_semi
 &lp LC(GRAVE) LG(GRAVE) &lp LC(Z) Z        &lp LC(X) X        &lp LC(C) C           &lp LC(V) D          &kp V                      &kp K           &kp H                    &kp COMMA              &kp PERIOD          &ques_slash                 &kp SLASH
                                                               &lt 4 ESC             &lt 5 BACKSPACE      &mo_ss 4 LSHIFT            &lt 5 RET       &lt 3 SPACE              &kp TAB
