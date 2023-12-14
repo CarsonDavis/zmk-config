@@ -123,10 +123,10 @@
         numpad_layer {
             label = "NumPad";
             bindings = <
-&trans                  &trans              &trans            &trans               &trans                &trans                    &trans          &lp LC(LS(N7)) N7         &lp LC(LS(N8)) N8      &lp LC(LS(N9)) N9  &kp MINUS                  &kp ASTERISK
-&trans                  &kp LEFT_WIN        &kp LEFT_SHIFT    &kp LEFT_ALT         &kp LEFT_CONTROL      &kp TAB                   &none           &lp LC(LS(N4)) N4         &kp N5                 &kp N6             &kp PLUS                   &none
-&trans                  &trans              &trans            &trans               &kp RET               &kp ESC                   &none           &lp LA(LC(N1)) N1         &lp LA(LC(N2)) N2      &lp LA(LC(N3)) N3  &kp SLASH                  &none
-                                                              &trans               &trans                &trans                    &none           &kp KP_NUMBER_0           &kp PERIOD
+&trans                  &trans              &trans            &trans               &trans                &trans                    &trans          &kp N7                    &kp N8                 &kp N9             &kp MINUS                  &kp ASTERISK
+&trans                  &kp LEFT_WIN        &kp LEFT_SHIFT    &kp LEFT_ALT         &kp LEFT_CONTROL      &kp TAB                   &none           &kp N4                    &kp N5                 &kp N6             &kp PLUS                   &none
+&trans                  &trans              &trans            &trans               &kp RET               &kp ESC                   &none           &kp N1                    &kp N2                 &lp PERIOD N3      &kp SLASH                  &none
+                                                              &trans               &trans                &trans                    &none           &kp SPACE                 &kp KP_NUMBER_0
             >;
         };
         symbols {
