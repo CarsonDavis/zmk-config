@@ -139,11 +139,11 @@
             >;
         };
         shortcut {
-            label = "Shortcut";
+            label = "Shortcuts";
             bindings = <
-&none                   &none               &none             &kp LC(LS(TAB))      &kp LC(TAB)          &kp LC(PLUS)               &none           &none                     &none                  &none               &none                    &none
-&none                   &none               &none             &kp LG(LS(TAB))      &kp LG(TAB)          &kp LC(MINUS)              &none           &none                     &none                  &none               &none                    &none
-&none                   &none               &none             &none                &none                &none                      &none           &none                     &none                  &none               &none                    &none
+&none                   &kp LC(W)           &kp LC(LS(TAB))   &kp LC(TAB)          &kp LC(LS(T))        &none                      &none           &none                     &none                  &none               &none                    &none
+&none                   &none               &kp LG(LS(TAB))   &kp LG(TAB)          &kp LC(PLUS)         &none                      &none           &none                     &none                  &none               &none                    &none
+&kp LC(Z) Z             &kp LC(X) X         &kp LC(C) C       &kp LC(V) V          &kp LC(MINUS)        &none                      &none           &none                     &none                  &none               &none                    &none
                                                               &none                &none                &none                      &none           &none                     &none
             >;
         };
