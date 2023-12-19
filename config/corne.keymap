@@ -85,30 +85,30 @@
         compatible = "zmk,keymap";
 
         default_layer {
+            label = "Colemak";
+            bindings = <
+&to 1                   &kp Q              &kp W              &kp F                 &kp P                &kp B                      &kp J           &kp L                    &kp U                  &kp Y               &kp SINGLE_QUOTE            &to 0
+&caps_word              &hml LEFT_WIN A    &hml LEFT_SHIFT R  &hml LEFT_ALT S       &hml LEFT_CONTROL T  &kp G                      &kp M           &hmr RIGHT_CONTROL N     &hmr RIGHT_ALT E       &hmr RIGHT_SHIFT I  &kp O                       &col_semi
+&lp LC(GRAVE) LG(GRAVE) &lp LC(Z) Z        &lp LC(X) X        &lp LC(C) C           &lp LC(V) D          &kp V                      &kp K           &kp H                    &kp COMMA              &kp PERIOD          &ques_slash                 &kp SLASH
+                                                              &lt 6 ESC             &lt 5 BACKSPACE      &mo_ss 4 LSHIFT            &lt 5 RET       &lt 3 SPACE              &kp TAB
+            >;
+        };
+        qwerty {
             label = "QWERTY";
             bindings = <
-&to 1                   &lp EXCLAMATION Q  &lp AT_SIGN W      &lp POUND E           &lp DOLLAR R         &lp PERCENT T              &lp ASTERISK Y  &lp LEFT_PARENTHESIS U   &lp UNDERSCORE I       &lp MINUS O         &lp EQUAL P                 &to 2
+&to 2                   &lp EXCLAMATION Q  &lp AT_SIGN W      &lp POUND E           &lp DOLLAR R         &lp PERCENT T              &lp ASTERISK Y  &lp LEFT_PARENTHESIS U   &lp UNDERSCORE I       &lp MINUS O         &lp EQUAL P                 &to 0
 &caps_word              &hml LEFT_WIN A    &hml LEFT_SHIFT S  &hml LEFT_ALT D       &hml LEFT_CONTROL F  &kp G                      &kp H           &hmr RIGHT_CONTROL J     &hmr RIGHT_ALT K       &hmr RIGHT_SHIFT L  &lp SEMICOLON SINGLE_QUOTE  &col_semi
 &caps_word              &lp LC(Z) Z        &lp LC(X) X        &lp LC(C) C           &lp LC(V) V          &kp B                      &kp N           &kp M                    &kp COMMA              &kp DOT             &ques_slash                 &kp SLASH
                                                               &lt 6 ESC             &lt 5 BACKSPACE      &mo_ss 4 LSHIFT            &lt 5 RET       &lt 3 SPACE              &kp TAB
             >;
         };
-        colemak {
-            label = "Colemak";
+        colemak_alpha {
+            label = "ColeAlph";
             bindings = <
-&to 0                   &kp Q              &kp W              &kp F                 &kp P                &kp B                      &kp J           &kp L                    &kp U                   &kp Y               &kp SINGLE_QUOTE           &to 2
+&to 1                   &kp Q              &kp W              &kp F                 &kp P                &kp B                      &kp J           &kp L                    &kp U                   &kp Y               &kp SINGLE_QUOTE           &to 0
 &trans                  &kp A              &kp R              &kp S                 &kp T                &kp G                      &kp M           &kp N                    &kp E                   &kp I               &kp O                      &col_semi
 &trans                  &kp Z              &kp X              &kp C                 &kp D                &kp V                      &kp K           &kp H                    &kp COMMA               &kp PERIOD          &ques_slash                &kp SLASH
                                                               &kp ESC               &kp BACKSPACE        &kp BACKSPACE              &kp RET         &kp SPACE                &kp TAB
-            >;
-        };
-        colemak_full {
-            label = "C-dh f";
-            bindings = <
-&to 0                   &kp Q              &kp W              &kp F                 &kp P                &kp B                      &kp J           &kp L                    &kp U                  &kp Y               &kp SINGLE_QUOTE            &to 2
-&caps_word              &hml LEFT_WIN A    &hml LEFT_SHIFT R  &hml LEFT_ALT S       &hml LEFT_CONTROL T  &kp G                      &kp M           &hmr RIGHT_CONTROL N     &hmr RIGHT_ALT E       &hmr RIGHT_SHIFT I  &kp O                       &col_semi
-&lp LC(GRAVE) LG(GRAVE) &lp LC(Z) Z        &lp LC(X) X        &lp LC(C) C           &lp LC(V) D          &kp V                      &kp K           &kp H                    &kp COMMA              &kp PERIOD          &ques_slash                 &kp SLASH
-                                                              &lt 6 ESC             &lt 5 BACKSPACE      &mo_ss 4 LSHIFT            &lt 5 RET       &lt 3 SPACE              &kp TAB
             >;
         };
         arrows_layer {
