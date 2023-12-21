@@ -141,9 +141,9 @@
         shortcut {
             label = "Shortcuts";
             bindings = <
-&none                   &kp LC(W)           &kp LC(LS(TAB))   &kp LC(TAB)          &kp LC(LS(T))        &none                      &none           &none                     &none                  &none               &none                    &none
-&none                   &none               &kp LG(LS(TAB))   &kp LG(TAB)          &kp LC(PLUS)         &none                      &none           &none                     &none                  &none               &none                    &none
-&kp LC(Z)               &kp LC(X)           &kp LC(C)         &kp LC(V)            &kp LC(MINUS)        &none                      &none           &none                     &none                  &none               &none                    &none
+&none                   &none                   &kp LC(W)           &kp LC(LS(TAB))   &kp LC(TAB)          &kp LC(LS(T))           &none           &none                     &none                  &none               &none                    &none
+&none                   &none                   &none               &kp LG(LS(TAB))   &kp LG(TAB)          &kp LC(PLUS)            &none           &none                     &none                  &none               &none                    &none
+&none                   &kp LC(Z)               &kp LC(X)           &kp LC(C)         &kp LC(V)            &kp LC(MINUS)           &none           &none                     &none                  &none               &none                    &none
                                                               &none                &none                &none                      &none           &none                     &none
             >;
         };
