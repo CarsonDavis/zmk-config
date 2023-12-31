@@ -106,9 +106,9 @@
             label = "ColeAlph";
             bindings = <
 &to 1                   &kp Q              &kp W              &kp F                 &kp P                &kp B                      &kp J           &kp L                    &kp U                   &kp Y               &kp SINGLE_QUOTE           &to 0
-&key_repeat             &kp A              &kp R              &kp S                 &kp T                &kp G                      &kp M           &kp N                    &kp E                   &kp I               &kp O                      &col_semi
-&caps_word              &kp Z              &kp X              &kp C                 &kp D                &kp V                      &kp K           &kp H                    &kp COMMA               &kp PERIOD          &ques_slash                &kp SLASH
-                                                              &kp ESC               &kp BACKSPACE        &kp BACKSPACE              &kp RET         &kp SPACE                &kp TAB
+&caps_word              &kp A              &kp R              &kp S                 &kp T                &kp G                      &kp M           &kp N                    &kp E                   &kp I               &kp O                      &col_semi
+&kp ESC                 &kp Z              &kp X              &kp C                 &kp D                &kp V                      &kp K           &kp H                    &kp COMMA               &kp PERIOD          &ques_slash                &kp SLASH
+                                                              &key_repeat           &kp BACKSPACE        &skq LSHIFT                &kp RET         &kp SPACE                &kp TAB
             >;
         };
         arrows_layer {
