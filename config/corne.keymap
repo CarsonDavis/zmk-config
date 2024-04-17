@@ -123,9 +123,9 @@
         numpad_layer {
             label = "NumPad";
             bindings = <
-&trans                  &trans              &trans            &trans               &trans                &trans                    &trans          &kp N7                    &kp N8                 &kp N9             &kp MINUS                  &kp ASTERISK
-&trans                  &kp LEFT_WIN        &kp LEFT_SHIFT    &kp LEFT_ALT         &kp LEFT_CONTROL      &kp TAB                   &kp ASTERISK    &kp N4                    &kp N5                 &kp N6             &kp PLUS                   &kp COLON
-&trans                  &trans              &trans            &trans               &kp RET               &kp ESC                   &none           &kp N1                    &kp N2                 &lp PERIOD N3      &kp SLASH                  &none
+&trans                  &trans              &trans            &trans               &trans                &trans                    &kp MINUS       &kp N7                    &kp N8                 &kp N9             &kp PLUS                   &kp ASTERISK
+&trans                  &kp LEFT_WIN        &kp LEFT_SHIFT    &kp LEFT_ALT         &kp LEFT_CONTROL      &kp TAB                   &kp ASTERISK    &kp N4                    &kp N5                 &kp N6             &kp EQUAL                  &kp COLON
+&trans                  &trans              &trans            &trans               &kp RET               &kp ESC                   &none           &kp N1                    &kp N2                 &kp N3             &kp PERIOD                 &kp SLASH
                                                               &trans               &trans                &trans                    &none           &kp SPACE                 &kp KP_NUMBER_0
             >;
         };
