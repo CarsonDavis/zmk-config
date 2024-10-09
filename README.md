@@ -1,5 +1,7 @@
 ## Overview
-This repo holds the configuration for my Corne keyboards. It's a Colemak Dh home row mods layout, with layers for symbols, arrows, numpad, and select shortcuts. It also features one shot shift and various optimizations to make home row mods more effective. It makes a couple unique choices with common symbols, such as swapping the shift behavior of `:` and `;` and swapping `?` and `/` such that the more common of the pairing is dominant. As I am a coder, `/` is given a dedicated key. Finally, long presses on the main layer give access to some common shortcuts. 
+This repo holds the configuration for my Corne keyboards. It's a Colemak Dh home row mods layout, with layers for symbols, arrows, numpad, and select shortcuts. It also features one shot shift and various optimizations to make home row mods more effective. 
+
+It makes a couple unique choices with common symbols, such as swapping the shift behavior of `:` and `;` and swapping `?` and `/` such that the more common of the pairing is dominant. As I am a coder, `/` is given a dedicated key. Finally, long presses on the main layer give access to some common shortcuts. 
 
 ## Pairing
 For help with pairing the device, check out the [wiki](https://github.com/CarsonDavis/zmk-config/wiki/Connecting-to-a-New-Device).
