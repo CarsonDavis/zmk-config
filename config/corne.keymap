@@ -102,7 +102,7 @@
         qwerty {
             label = "QWERTY";
             bindings = <
-&to 2                   &lp EXCLAMATION Q  &lp AT_SIGN W      &lp POUND E           &lp DOLLAR R         &lp PERCENT T              &lp ASTERISK Y  &lp LEFT_PARENTHESIS U   &lp UNDERSCORE I       &lp MINUS O         &lp EQUAL P                 &to 0
+&to 7                   &lp EXCLAMATION Q  &lp AT_SIGN W      &lp POUND E           &lp DOLLAR R         &lp PERCENT T              &lp ASTERISK Y  &lp LEFT_PARENTHESIS U   &lp UNDERSCORE I       &lp MINUS O         &lp EQUAL P                 &to 0
 &caps_word              &hml LEFT_WIN A    &hml LEFT_SHIFT S  &hml LEFT_ALT D       &hml LEFT_CONTROL F  &kp G                      &kp H           &hmr RIGHT_CONTROL J     &hmr RIGHT_ALT K       &hmr RIGHT_SHIFT L  &lp SEMICOLON SINGLE_QUOTE  &col_semi
 &key_repeat             &lp LC(Z) Z        &lp LC(X) X        &lp LC(C) C           &lp LC(V) V          &kp B                      &kp N           &kp M                    &kp COMMA              &kp DOT             &ques_slash                 &kp SLASH
                                                               &lt 6 ESC             &lt 5 BACKSPACE      &mo_ss 4 LSHIFT            &lt 5 RET       &lt 3 SPACE              &kp TAB
@@ -151,6 +151,15 @@
 &kp LG(GRAVE)           &none               &none             &kp LG(LS(TAB))      &kp LG(TAB)          &kp LC(PLUS)               &none           &none                     &none                  &none               &none                    &none
 &none                   &kp LC(Z)           &kp LC(X)         &kp LC(C)            &kp LC(V)            &kp LC(MINUS)              &none           &none                     &none                  &none               &none                    &none
                                                               &none                &none                &none                      &none           &none                     &none
+            >;
+        };
+        lightroom {
+            label = "LRoom";
+            bindings = <
+&to 2                   &none               &none              &none                 &none                &none                      &none           &kp N7                    &kp N8                 &kp N9             &none                      &to 0
+&none                   &none               &none              &none                 &none                &none                      &none           &kp N4                    &kp N5                 &kp N6             &none                      &none
+&none                   &none               &none              &none                 &none                &none                      &none           &kp N1                    &kp N2                 &kp N3             &none                      &none
+                                                               &lt 6 ESC            &lt 5 BACKSPACE      &mo_ss 4 LSHIFT            &lt 5 RET       &lt 3 SPACE               &kp TAB
             >;
         };
     };
